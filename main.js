@@ -48,7 +48,7 @@ function my_keydown(e)
 		else if((keyPressed ==17)|| (keyPressed ==18 || keyPressed ==27))
 		{
 			specialkey();
-			document.getElementById("d1").innerHTML="You pressed ctrl/esc/alt";
+			document.getElementById("d1").innerHTML="You pressed special key";
 			console.log("special key");
 		}
 	else{
